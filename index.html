@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+    <!-- Angualr Routes -->
+    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+
+    <!-- MaterializeCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  </head>
+  <body ng-app="myApp">
+
+    <div class="row" ng-controller="myCtrl">
+      <div class="col s4">
+        <div id="stats"></div>
+        <div id="hand"></div>
+        <ul class="collapsible" data-collapsible="accordion">
+        <li ng-repeat="faction in selectedFactions | orderBy:'-title' : true ">
+          <div class="collapsible-header">{{ faction.title }}</div>
+          <div class="collapsible-body">
+            Faction Rate: {{ faction.rate }}
+            <br>
+            Faction Crime: {{ faction.crime }}%
+            <br>
+            <a href="#/corporations/{{faction.id}}">Faction Profile</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+      <div class="col s6 container">
+        <div ng-view></div>
+        The good faction is {{ growthFaction.title }}, the bad faction is {{ valueFaction.title }}, and the ugly faction is {{ stableFaction.title }}.
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/helper_functions.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/controllers.js"></script>
+  <script type="text/javascript" src="js/model.js"></script>
+
+
+</html>
+
+<!-- Pseudocode:
+
+You are given a request to intervene against a corporation (corp A against Corp B)
+
+You must decide whether to approve the Request (thereby sending gov agents against the Corp), or to deny the request.
+
+Successfully cracking down on crime get you additional funding (so a glorified Tower Defense) to allow you to fight.
+
+BUT...you lose resources when you fight as well.
+
+And you have to determine whether the crime is actually real, or just an excuse to send you (the wolf) against their enemies.
+
+You are THE REGULATOR, forced to make the tough choices (and accept the shady bribes) to keep the City safe. You are hated by everyone, you are the Monster, but you embrace the Blackness so that others can sleep well at night.-->
+
+
+<!-- I tried using this code for my service to be able to use the $http service, but failed to do so, and haev given up for now. It seems that the main problem with using an http service is that it's geared towards hitting JSON files outside of your website! Not just random data you have lying around.
+
+   var object
+    $http.get("json/corporations.json").success(function(data){
+      object = data
+    })
+    return object
+  } -->
