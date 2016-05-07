@@ -7,5 +7,13 @@ app.controller('myCtrl', function($scope, corporations) {
 });
 
 app.controller('CorporateController', ['$scope', '$routeParams', 'corporations', function($scope, $routeParams, corporations) {
-      $scope.faction = corporations.information()[$routeParams.id - 1];
-  }]);
+  $scope.faction = corporations.information()[$routeParams.id - 1];
+}]);
+
+app.controller('PlayerController', ['$scope', 'localStorageService', function($scope, localStorageService) {
+  $scope.name = localStorageService.get("name");
+  $scope.changeName = function(name) {
+    localStorageService.set("name", name);
+    $scope.name = name;
+  }
+}]);
