@@ -54,6 +54,15 @@ app.service('corporations', function($http) {
             anti_quote: "It's a mockery of our laws that a criminal gang is able to freely reinvent themselves as a honorable corporation. And they probably haven't given up on the crime yet.---Argyros Naevius, former journalist",
             favorite_policy: "Slush Fund",
             industries: "Pharmaceuticals, Weapon Production"
+          },
+          {
+            id: 7,
+            title: "Singularity LLC",
+            description: "Radical political activists who (after being repeatedly disappointed at the failure of human politicans and regulators to solve problems) are attempting to build an Artifical General Intelligence that will control human society. They sometimes rent their experiments as 'consultants' to the other corporations to help raise revenue.",
+            pro_quote: "People are superstitios [sic] about self-modifying code because once you employ this for solving usual engineering problems, you will often find it to be difficult to trace down the reasons for your program's behavior and that the ability of a program to modify itself can be exploited to gain access / information by people / other programs they not allowed to have. However, if these aren't problematic, then any Lisp or Prolog is a safe bet. Something that speaks to broader audience: Python, JavaScript, Lua.---wvxvw, Singularity LLC employee",
+            anti_quote: "Humans *don't* agree on how to run our society! Why should we trust a computer to know any better?---Bassam Petru, lawyer",
+            favorite_policy: "Algorithmic Law",
+            industries: "Consulting, Life Coaching"
           }
         ]
   }
