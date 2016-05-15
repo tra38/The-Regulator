@@ -1,21 +1,22 @@
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-    <!-- Angular -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-
-    <!-- Angualr Routes -->
-    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
-
-    <!-- AngularLocalStorage -->
-    <script src="https://rawgit.com/grevory/angular-local-storage/master/dist/angular-local-storage.min.js"></script>
-
     <!-- MaterializeCSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   </head>
   <body ng-app="myApp">
+    <!-- BEGIN: Pre-Bootstrap Loading Screen. -->
+    <div ng-if="false">
+        <p class="center-align">
+            The game is loading. If it takes too long to load, please refresh your browser and try again.
+        </p>
+        <p class="center-align">
+          "We who are about to die laugh at those who are still living."--The Regulator
+        </p>
+      </div>
+
+    </div>
+    <!-- END: Pre-Bootstrap Loading Screen. -->
+
 
     <div class="row" ng-controller="myCtrl">
       <div class="col s4">
@@ -36,14 +37,46 @@
       </div>
       <div class="col s6 container">
         <div ng-view></div>
+
         The good faction is {{ growthFaction.title }}, the bad faction is {{ valueFaction.title }}, and the ugly faction is {{ stableFaction.title }}.
       </div>
     </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>The Regulator</h4>
+        <p>The chaos of the ongoing war.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      </div>
+    </div>
+
   </body>
+  <!-- Good Old JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <!-- Angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+  <!-- Angualr Routes -->
+  <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+
+  <!-- AngularLocalStorage -->
+  <script src="https://rawgit.com/grevory/angular-local-storage/master/dist/angular-local-storage.min.js"></script>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+  <!-- Custom Files -->
   <script type="text/javascript" src="js/helper_functions.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
   <script type="text/javascript" src="js/controllers.js"></script>
   <script type="text/javascript" src="js/model.js"></script>
+  <script>
+    $('#modal1').openModal();
+  </script>
 
 
 </html>
