@@ -6,10 +6,18 @@
   For every complex problem there is an answer that is clear, simple, and wrong.---H. L. Mencken
   Read more at: http://www.brainyquote.com/quotes/quotes/h/hlmencke129796.html
 
+
+  <div class="faction" ng-repeat="faction in selectedFactions" | ng-repeat="faction in selectedFactions | orderBy:'-title' : true ">
+
+    <button ng-click="attackTarget(faction)">Attack {{ faction.title }}</button>
+  </div>
+
+
   <div ng-controller="PlayerController">
     Your name is {{ name }}.
     Change name:
     <input ng-model="newCacheModel"><button ng-click="changeName(newCacheModel); $scope.name = newCacheModel;">Cache</button>
+
   </div>
 
 </div>
