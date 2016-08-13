@@ -84,12 +84,16 @@ app.service('corporations', function($http) {
             id: 9,
             title: "Liberal Crime Squad"
             description: "A leftist terrorist group that previously wanted to establish an 'Elite Liberal Utopia'. The leadership soon realized that it would be far easier to plug people into a 'simulation' of an Elite Liberal utopia instead. They now adopt a policy of utter hedonism, and only leave the VR sims to raise funds and preach their agenda to the masses.",
-            pro_quote: "Only by abandoning 'Conservative Reality' can humanity be awakened to its True Liberal Nature and be able to enjoy happy, productive lives.---Liberal Crime Squad Founder",
-            anti_quote: "???",
+            pro_quote: "Only by abandoning 'Conservative Reality' can humanity be awakened to its True Liberal Nature and be able to enjoy happy, productive lives.---Chris Horsa, Liberal Crime Squad Founder",
+            anti_quote: "The LCS agents sleep soundly in their virtual pods, for now. But mark my word, the LCS will awake from their tombs, and will forcibly drag more people into their cursed pods...---Leobwin Sansone, former LCS employee",
             industries: "Virtual Reality",
             alignment: "left"
           }
         ]
   }
   })
-// VHEMT is one interesting org to add here
+// Other Corps To Add?
+
+// Uber/On-Demand Startups?
+// Conservative Crime Squad?
+// Social Media?
