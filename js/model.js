@@ -9,6 +9,7 @@ app.service('corporations', function($http) {
             pro_quote: "[The noises from video compression] are more beautiful to me than most things deliberately made by humans.--Loren Schmidt, Human Co-Founder",
             anti_quote: "CreativeAI's work is...decent. Not as good as a human, of course. But the corporations don't care about quality. They care about cost. And a computer is much cheaper than a human.---Argyros Naevius, former journalist",
             favorite_policy: "Transperancy Mandate",
+            alignment: "left"
           },
           {
             id: 2,
@@ -17,7 +18,8 @@ app.service('corporations', function($http) {
             pro_quote: "Remember that we do not want our sons and daughters to live in this cursed hell. We will fight for their sake.---Dori Iodocus, CEO",
             anti_quote: "It is cliche to point out that the Vanguard leadership lives in skyscrapers and mansions while their employees are dirt-poor, expendable cannon fooder. But at least the Vanguard leadership recognizes the irony and pretends to cry about it.---Argyros Naevius, former journalist",
             favorite_policy: "E-Democracy",
-            industries: "Corporate Espionage, Military"
+            industries: "Corporate Espionage, Military",
+            alignment: "left"
           },
           {
             id: 3,
@@ -27,6 +29,7 @@ app.service('corporations', function($http) {
             anti_quote: "In the past, we humans used technology. Now, technology uses us, and is using us for some greater, unfathomable purpose.---Yamato Izz al-Din, former Centaur employee",
             favorite_policy: "Basic Income",
             industries: "Industrial Automation, Research and Development"
+            alignment: "libertarian"
           },
           {
             id: 4,
@@ -35,7 +38,8 @@ app.service('corporations', function($http) {
             industries: "Financial Services, Investment Banking, Accounting",
             anti_quote: "There is no evidence that the Baudrillard Associates even *exists*. Either the leadership has hidden themselves very well, or these bankers invented up the organization just to give themselves an excuse to do what they always wanted to do.---Tadeo Waldobert, Police Officer",
             pro_quote: "When the government treats the law as a pliable instrument to be used creatively, it tends to encourage citizens to treat it the same way. ... [The corporations] treated the law as a game to be played, a puzzle to be solved as aggressively as possible, rather than a moral obligation. THE JUSTICE DEPARTMENT DOES TOO.---Matt Levine, Senior Vice President of Public Relations",
-            favorite_policy: "Deregulation"
+            favorite_policy: "Deregulation",
+            alignment: "libertarian"
           },
           {
             id: 5,
@@ -44,7 +48,8 @@ app.service('corporations', function($http) {
             industries: "Security & Investigations, Law Enforcement",
             favorite_policy: "Vigilante Legalization",
             anti_quote: "They believe they can go against the law if it means ridding the area of a drug dealer or gangster. How are they any better than the criminals when they resort to criminal tactics?---John Davids, South African Civilian",
-            pro_quote: "If you do not mobilise yourselves, no one will do it for you. Drugs and gangsterism is destroying our society and everyone is affected.---Haroun Orrie, PAGAD spokesperson"
+            pro_quote: "If you do not mobilise yourselves, no one will do it for you. Drugs and gangsterism is destroying our society and everyone is affected.---Haroun Orrie, PAGAD spokesperson",
+            alignment: "rightist"
           },
           {
             id: 6,
@@ -53,7 +58,8 @@ app.service('corporations', function($http) {
             pro_quote: "Ideologies are like clothing; when one is worn out, it's time to buy a new one.---Ji-Hun Yeong-Ho, Room 39 agent",
             anti_quote: "It's a mockery of our laws that a criminal gang is able to freely reinvent themselves as a honorable corporation. And they probably haven't given up on the crime yet.---Argyros Naevius, former journalist",
             favorite_policy: "Slush Fund",
-            industries: "Pharmaceuticals, Weapon Production"
+            industries: "Pharmaceuticals, Weapon Production",
+            alignment: "rightist"
           },
           {
             id: 7,
@@ -62,8 +68,28 @@ app.service('corporations', function($http) {
             pro_quote: "People are superstitios [sic] about self-modifying code because once you employ this for solving usual engineering problems, you will often find it to be difficult to trace down the reasons for your program's behavior and that the ability of a program to modify itself can be exploited to gain access / information by people / other programs they not allowed to have. However, if these aren't problematic, then any Lisp or Prolog is a safe bet. Something that speaks to broader audience: Python, JavaScript, Lua.---wvxvw, Singularity LLC employee",
             anti_quote: "Humans *don't* agree on how to run our society! Why should we trust a computer to know any better?---Bassam Petru, lawyer",
             favorite_policy: "Algorithmic Law",
-            industries: "Consulting, Life Coaching"
+            industries: "Consulting, Life Coaching",
+            alignment: "libertarian"
+          },
+          {
+            id: 8,
+            title: "VHEMT",
+            description: "A radical environmentalist organization founded in the early 1990s by Les U. Knight, VHEMT stands for the 'Voluntary Human Extiniction Movement'. As society has grown more dystopian, many people have began supporting VHEMT as the best way to increase global  welfare, declaring that the death of humanity is the only sensible choice in a insensible world.",
+            pro_quote: "Q: Is this another one of those suicide cults? A: Seems as if our entire industralized civilization is one big suicide cult. ... [V]oluntary human extiniction offers a healthy cure to humanity's collective death wish.---VHEMT Q&A"
+            anti_quote: "The logic is as absurd as it's unassailable. Yes, indeed, if there are no more children, there will be no more child tragedies. Or child triumphs, for that matter, or much reason to think childless humanity will spend its dying days as serenely as Knight predicts. ---Brian Bethune, journalist"
+            industries: "Environmental Services",
+            alignment: "left"
+          },
+          {
+            id: 9,
+            title: "Liberal Crime Squad"
+            description: "A leftist terrorist group that previously wanted to establish an 'Elite Liberal Utopia'. The leadership soon realized that it would be far easier to plug people into a 'simulation' of an Elite Liberal utopia instead. They now adopt a policy of utter hedonism, and only leave the VR sims to raise funds and preach their agenda to the masses.",
+            pro_quote: "Only by abandoning 'Conservative Reality' can humanity be awakened to its True Liberal Nature and be able to enjoy happy, productive lives.---Liberal Crime Squad Founder",
+            anti_quote: "???",
+            industries: "Virtual Reality",
+            alignment: "left"
           }
         ]
   }
   })
+// VHEMT is one interesting org to add here
