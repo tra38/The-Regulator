@@ -93,7 +93,7 @@ app.service('corporations', function($http) {
             id: 10,
             title: "Daemon Hunters",
             description: "Wackos and conspiracy theorists who believe that they are living in a computer simulation ('MMO') controlled by cruel daemons ('players'). These daemons regularly pay 'subscription fees' for the chance to beat up and cruelly torture 'NPCs' (us). The Demon Hunters seek to purge the daemonic element from human society, but have a hard time distingushing between the NPCs and the daemons.",
-            pro_quote: "At least the people who oppress us claim to be human! But to be enslaved by inhuman daemons...no, we cannot tolerate that!---Yamato Izz al-Din, spokesperson for the Daemon Hunters",
+            pro_quote: "Friend or foe? Paranoia imperative. Galaxy purely casual, individualism is a statistical anomaly - Nada is an error. Trust Nada? Trust you?---Priest Entity Nada, CTO of Daemon Hunters",
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
             alignment: "right"
           }
