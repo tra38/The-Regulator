@@ -118,3 +118,6 @@ app.service('corporations', function($http) {
 //   anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ front door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
 //   alignment: "right?"
 // }
+
+// The HFSE is a place that you can periodically monitor to check people's opinions about you. If you engage in too much tyranny, the HFSE will turn against you, and you will go against their wrath (which includes threatening attacks as well as stronger Corporations.)
+// When you start the game, you log onto the HFSE to get your job.
