@@ -105,6 +105,14 @@ app.service('corporations', function($http) {
 // Uber/On-Demand Startups?
 // Conservative Crime Squad?
 // Social Media?
+// "Weyland Corps" could be an interesting addition, and it would introduce the standard 'evil corp' back into the picture, since most of the corps here seem to make more sense as rebellious scum than as multitrillion-dollar megacorps. (Weyland appears to be a pro-"human supremacy" organization that does care for the environment and believe mankind to be like gods.) The biggest hurdle for Weyland Corps is two-folds
+// One...the existence of the Daemon Hunters already mean you have a faction dedicated to interacting with 'extraterrestial entities' (the Demons), although the Daemon Hunters 'officially' wants to purge demons, not use them as weaponry.
+// Two...the Weyland Corps' techno-utopianism is already reflected in Cenaturs Incorporated and Singularility LLC, and actually made more explicit. Their environmentalism is radicalized in the form of VHEMT. In the dystopian world of The Regulator, the Weylands are just too...conventional. Too boring.
+
+// Peter Weyland's speech: http://lybio.net/peter-weylands-2023-ted-talk/people/
+// Even though Peter believed mankind to be god, in the movie Prometheus, he had to beg to the Creators themselves...gods who are theorized to have made mankind solely as breeding vessels for the greatest biological weapons ever...the Xenomorphs
+
+
 
 // Possible 'Enemy Faction' To Include If Tyranny is too High
 // If so, provide hints that the HFSE exist in the Lore before launching them
@@ -115,7 +123,7 @@ app.service('corporations', function($http) {
 //   title: "Human Flesh Search Engine",
 //   description: "Established in the early 21st century as a loose-knit collection of Chinese vigilantes seeking to punish corruption and immorality through public shaming and doxxing, it has since absorbed other crowd-sourced intelligence gathering entities to become a major international force. The HFSE uses harrassment and death threats to push the vague and shifting views of the Internet mob, and tends to target both the strong and the weak fairly equally.",
 //   pro_quote: "Righteousness is one of the five virtues in the Confucian tradition. With the convenience of the internet, and in the case of non-responsive law, the righteous people took matters into their own hands.---Xujun Eberlein, Chinese-American writer",
-//   anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ front door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
+//   anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ froxnt door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
 //   alignment: "right?"
 // }
 
