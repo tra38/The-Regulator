@@ -96,7 +96,7 @@ app.service('corporations', function($http) {
             pro_quote: "Friend or foe? Paranoia imperative. Galaxy purely casual, individualism is a statistical anomaly - Nada is an error. Trust Nada? Trust you?---Priest Entity Nada, CTO of Daemon Hunters",
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
             alignment: "right",
-            industries: "Space Exploration"
+            industries: "Space Exploration, Food Production"
           }
         ]
   }
