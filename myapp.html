@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<form name="myForm">
+<p>The hexadecimal value of <input ng-model="number" ng-change="hexify(number)" type="number" required name="number"> is:</p>
+</form>
+
+Hex: {{ hex }}
+
+<hr>
+number: {{ number }}
+
+<!-- {{ number }}
+ -->
+
+    <span ng-show="!myForm.number.$valid">
+      Not valid number!</span>
+
+  <tt>number = {{number}}</tt><br/>
+  <tt>myForm.number.$valid = {{myForm.number.$valid}}</tt><br/>
+  <tt>myForm.number.$error = {{myForm.number.$error}}</tt><br/>
+  <tt>myForm.$valid = {{myForm.$valid}}</tt><br/>
+  <tt>myForm.$error.required = {{!!myForm.$error.required}}</tt><br/>
+  <tt>myForm.$error.minlength = {{!!myForm.$error.minlength}}</tt><br/>
+  <tt>myForm.$error.maxlength = {{!!myForm.$error.maxlength}}</tt><br/>
+
+</div>
+
+<p>A custom service whith a method that converts a given number into a hexadecimal number.</p>
+
+
+<script>
+var app = angular.module('myApp', []);
+
+app.service('hexafy', function() {
+    this.myFunc = function (x) {
+        return x.toString(16);
+    }
+});
+
+app.controller('myCtrl', function($scope, hexafy) {
+  $scope.number = 255;
+  $scope.hex = hexafy.myFunc(255);
+
+  $scope.hexify = function(number){
+    $scope.hex = hexafy.myFunc(number);
+  }
+});
+</script>
+
+</body>
+</html>
