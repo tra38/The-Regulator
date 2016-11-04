@@ -97,6 +97,14 @@ app.service('corporations', function($http) {
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
             alignment: "right",
             industries: "Space Exploration, Food Production"
+          },
+          {
+            id: 11,
+            title: "The Firemen",
+            description: "Journalists, academics, and political activists hoping to modify society's entertainment to promote proper moral conduct. Entertainment, while providing a mandatory dose of fun in a person's life, also negatively affects social norms and behaviors. They're fine with the media brainwashing people...it just have to brainwash people in the *right* manner. Endorses social justice and ethics in video game journalism.",
+            pro_quote: "The murders of innocents every day? The constant arson and torture allegations? The media didn't start the fire, true. But the media fueled it, by glorifying the criminals on the street and justifying their every misdeed! All we're doing is throwing water onto the fire.---Nikon Pytheid, Populist Commander of the Firemen",
+            anti_quote: "We run to media to AVOID the cold reality of politics. If even the media must be politicized by these Firemen, then...where do we run to next?---Argyros Naevius, former journalist",
+            industries: "Media, Academia"
           }
         ]
   }
