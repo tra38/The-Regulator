@@ -75,8 +75,8 @@ app.service('corporations', function($http) {
             id: 8,
             title: "VHEMT",
             description: "A radical environmentalist organization founded in the early 1990s by Les U. Knight, VHEMT stands for the 'Voluntary Human Extiniction Movement'. As society has grown more dystopian, many people have began supporting VHEMT as the best way to increase global  welfare, declaring that the death of humanity is the only sensible choice in a insensible world.",
-            pro_quote: "Q: Is this another one of those suicide cults? A: Seems as if our entire industralized civilization is one big suicide cult. ... [V]oluntary human extiniction offers a healthy cure to humanity's collective death wish.---VHEMT Q&A"
-            anti_quote: "The logic is as absurd as it's unassailable. Yes, indeed, if there are no more children, there will be no more child tragedies. Or child triumphs, for that matter, or much reason to think childless humanity will spend its dying days as serenely as Knight predicts. ---Brian Bethune, journalist"
+            pro_quote: "Q: Is this another one of those suicide cults? A: Seems as if our entire industralized civilization is one big suicide cult. ... [V]oluntary human extiniction offers a healthy cure to humanity's collective death wish.---VHEMT Q&A",
+            anti_quote: "The logic is as absurd as it's unassailable. Yes, indeed, if there are no more children, there will be no more child tragedies. Or child triumphs, for that matter, or much reason to think childless humanity will spend its dying days as serenely as Knight predicts. ---Brian Bethune, journalist",
             industries: "Environmental Services",
             alignment: "left"
           },
@@ -124,9 +124,19 @@ app.service('corporations', function($http) {
 //   title: "Human Flesh Search Engine",
 //   description: "Established in the early 21st century as a loose-knit collection of Chinese vigilantes seeking to punish corruption and immorality through public shaming and doxxing, it has since absorbed other crowd-sourced intelligence gathering entities to become a major international force. The HFSE uses harrassment and death threats to push the vague and shifting views of the Internet mob, and tends to target both the strong and the weak fairly equally.",
 //   pro_quote: "Righteousness is one of the five virtues in the Confucian tradition. With the convenience of the internet, and in the case of non-responsive law, the righteous people took matters into their own hands.---Xujun Eberlein, Chinese-American writer",
-//   anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ froxnt door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
+//   anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ front door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
 //   alignment: "right?"
 // }
 
 // The HFSE is a place that you can periodically monitor to check people's opinions about you. If you engage in too much tyranny, the HFSE will turn against you, and you will go against their wrath (which includes threatening attacks as well as stronger Corporations.)
 // When you start the game, you log onto the HFSE to get your job.
+
+// Political Eras:
+// Social Stability (Rise) - instituions are strong, the political leadership is unquestioned. Everyone knows their place in the system. A Totalitaran, Majoritian dictatorship, but one with strong morals. (Government consolidated control. No opposition force at all. Corps' activites are very curtailed and have to pay a lot of lip service to the government. Random Events - governmental corruption.)
+// Awakening - the people are rebelling against the Institution System. The government is advocating for the Institutional Status Quo, but there's a strong countercultural movement advocating for freedom and democracy and weak governments. (The government is strong, but there's a growing opposition force. Corps start having more autonomy. Random Events - opposition rising.)
+// Decay - individualism has trimpuhed and governments are weak. The people are rebellious and free to do as they wish. Absolute anarchy and chaos (i.e, the perfect setting for a cyberpunk world). This is the cloeset you're going to get to FREEDOM AND SOCIAL LIBERATION. (The government and the opposition force is mostly equal in strength, and have to negotiate with each other to deal with tense situations. Corps are very autonomous. Random Events - Bloody warfare on the streets.)
+// Crisis - The people slowly re-organize themselves, tearing down the old Institutions and replacing them with new Institutions. (The government is collapsing and the opposition is about to take over and become the new Totalists. Corps are resentful of their newfound freedoms being stripped away. Random Events - Reactionary riots against the new regime.)
+
+// This type of "feature" is useful because it means that the Player has to not only worry about policing inter-corporate affairs, but also opposition/government affairs as well. Your goal is to make sure the government still remains popular, and your strategy in an Decay-era would be very different from that of the Rise-era...If the government has no opposition, you don't have to worry about the corporations funding opp groups against you, for example.
+
+// In practice, you may want to have an ending scenario, so you can replay the game again to get a different City (set in a different Political Era).
