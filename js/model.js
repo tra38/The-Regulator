@@ -3,11 +3,11 @@ app.service('corporations', function($http) {
     return [
           {
             id: 1,
-            title: 'CreativeAI',
-            description: 'This post-modernist ad agency uses the latest in artifical intelligence to develop highly-targeted messages to reach consumers. They are experts at manipulating culture and human emotion to convince people to do horrible things. The only humans CreativeAI hires are "data scientists"; all of their other employees are algorithms.',
+            title: 'MindClean',
+            description: 'This post-modernist ad agency uses the latest in artifical intelligence to develop highly-targeted messages to reach consumers. They are experts at manipulating culture and human emotion to convince people to do horrible things. The only humans MindClean hires are "data scientists"; all of their other employees are algorithms.',
             industries: "Public Relations, Advertising, Entertainment",
             pro_quote: "[The noises from video compression] are more beautiful to me than most things deliberately made by humans.--Loren Schmidt, Human Co-Founder",
-            anti_quote: "CreativeAI's work is...decent. Not as good as a human, of course. But the corporations don't care about quality. They care about cost. And a computer is much cheaper than a human.---Argyros Naevius, former journalist",
+            anti_quote: "MindClean's work is...decent. Not as good as a human, of course. But the corporations don't care about quality. They care about cost. And a computer is much cheaper than a human.---Argyros Naevius, former journalist",
             favorite_policy: "Transperancy Mandate",
             alignment: "left"
           },
@@ -97,15 +97,6 @@ app.service('corporations', function($http) {
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
             alignment: "right",
             industries: "Space Exploration, Food Production"
-          },
-          {
-            id: 11,
-            title: "Weyland Corporation",
-            description: "Originally an idealistic techno-utopian megacorporation dedicated to promoting 'progressive' values through on-demand self-learning tutorials, the corporation soon took a cynical turn when they realized the dystopian horrors of the present day. Desperate to promote 'social justice' in the face of an intolerant and reactionary world, the corporation relucantly turned to authoritarianism, aiming to secure ultimate control over humanity through mind implants.",
-            pro_quote: "For those of you who know me, you will be aware by now that my ambition is unlimited, you will know by now that I would settle for nothing short of greatness or will die trying.---Peter Weyland, founder of Weyland Corporation",
-            anti_quote: "Mr. Weyland may mean well, but so do all fools. Power always corrupt. Absolute power only does it more effectively.---Argyros Naevius, former journalist",
-            alignment: "left",
-            industries: "Mind Control, Education"
           }
         ]
   }
