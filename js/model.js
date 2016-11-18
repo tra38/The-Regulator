@@ -97,6 +97,15 @@ app.service('corporations', function($http) {
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
             alignment: "right",
             industries: "Space Exploration, Food Production"
+          },
+          {
+            id: 11,
+            title: "Weyland Corporation",
+            description: "Originally an idealistic techno-utopian megacorporation dedicated to promoting 'progressive' values through on-demand self-learning tutorials, the corporation soon took a cynical turn when they realized the dystopian horrors of the present day. Desperate to promote 'social justice' in the face of an intolerant and reactionary world, the corporation relucantly turned to authoritarianism, aiming to secure ultimate control over humanity through mind implants.",
+            pro_quote: "For those of you who know me, you will be aware by now that my ambition is unlimited, you will know by now that I would settle for nothing short of greatness or will die trying.---Peter Weyland, founder of Weyland Corporation",
+            anti_quote: "Mr. Weyland may mean well, but so do all fools. Power always corrupt. Absolute power only does it more effectively.---Argyros Naevius, former journalist",
+            alignment: "left",
+            industries: "Mind Control, Education"
           }
         ]
   }
@@ -140,3 +149,15 @@ app.service('corporations', function($http) {
 // This type of "feature" is useful because it means that the Player has to not only worry about policing inter-corporate affairs, but also opposition/government affairs as well. Your goal is to make sure the government still remains popular, and your strategy in an Decay-era would be very different from that of the Rise-era...If the government has no opposition, you don't have to worry about the corporations funding opp groups against you, for example.
 
 // In practice, you may want to have an ending scenario, so you can replay the game again to get a different City (set in a different Political Era).
+
+
+// The Various Beginnings of The-Regulator
+
+// Prequel to the Syndicate Series -
+// EuroCorp has just invented the CHIP, a new system that would enable it to control people. The other corporations slowly begin to use the tech for their own purposes, morphing into the large-scale corporations that we know of at the start of Syndicate 1.
+
+// Prequel to No Man's Sky -
+// The Korvax's Homeworld has reached a stage of great technological advancement, but were unable to combine togheter into a unified government. The Corporate Buyout Wars finally conclude with the arrival of the Gek, who destroyed the homeworld in the Great Convergence. The Korvax were enslaved, and eventually, the Centaurs Incorporated faction won. The remenants of the Daemon Hunters went into exile, and eventually died out all except for the Priest Entity Nada.
+
+// Sequel to Liberal Crime Squad, Bad Ending -
+// The Reagan monarchy began to implode, and with it chaos begin to arise.
