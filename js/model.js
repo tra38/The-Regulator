@@ -97,6 +97,15 @@ app.service('corporations', function($http) {
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
             alignment: "right",
             industries: "Space Exploration, Food Production"
+          },
+          {
+            id: 11,
+            title: "Human Flesh Search Engine",
+            description: "Established in the early 21st century as a loose-knit collection of Chinese vigilantes seeking to punish corruption and immorality through public shaming and doxxing, it has since absorbed other crowd-sourced intelligence gathering entities to become a major international force. The HFSE uses harrassment and death threats to push the vague and shifting views of the Internet mob, and tends to target both the strong and the weak fairly equally.",
+            pro_quote: "Righteousness is one of the five virtues in the Confucian tradition. With the convenience of the internet, and in the case of non-responsive law, the righteous people took matters into their own hands.---Xujun Eberlein, Chinese-American writer",
+            anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ front door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
+            alignment: "right",
+            industries: "Social Media, Internet Activism"
           }
         ]
   }
