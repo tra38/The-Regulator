@@ -9,7 +9,7 @@ app.service('corporations', function($http) {
             pro_quote: "[The noises from video compression] are more beautiful to me than most things deliberately made by humans.--Loren Schmidt, Human Co-Founder",
             anti_quote: "MindClean's work is...decent. Not as good as a human, of course. But the corporations don't care about quality. They care about cost. And a computer is much cheaper than a human.---Argyros Naevius, former journalist",
             favorite_policy: "Transperancy Mandate",
-            alignment: "left"
+            alignment: "chaos"
           },
           {
             id: 2,
@@ -19,7 +19,7 @@ app.service('corporations', function($http) {
             anti_quote: "It is cliche to point out that the Vanguard leadership lives in skyscrapers and mansions while their employees are dirt-poor, expendable cannon fooder. But at least the Vanguard leadership recognizes the irony and pretends to cry about it.---Argyros Naevius, former journalist",
             favorite_policy: "E-Democracy",
             industries: "Corporate Espionage, Military",
-            alignment: "left"
+            alignment: "law"
           },
           {
             id: 3,
@@ -29,7 +29,7 @@ app.service('corporations', function($http) {
             anti_quote: "In the past, we humans used technology. Now, technology uses us, and is using us for some greater, unfathomable purpose.---Yamato Izz al-Din, former Centaur employee",
             favorite_policy: "Basic Income",
             industries: "Industrial Automation, Research and Development"
-            alignment: "libertarian"
+            alignment: "chaos"
           },
           {
             id: 4,
@@ -39,7 +39,7 @@ app.service('corporations', function($http) {
             anti_quote: "There is no evidence that the Baudrillard Associates even *exists*. Either the leadership has hidden themselves very well, or these bankers invented up the organization just to give themselves an excuse to do what they always wanted to do.---Tadeo Waldobert, Police Officer",
             pro_quote: "When the government treats the law as a pliable instrument to be used creatively, it tends to encourage citizens to treat it the same way. ... [The corporations] treated the law as a game to be played, a puzzle to be solved as aggressively as possible, rather than a moral obligation. THE JUSTICE DEPARTMENT DOES TOO.---Matt Levine, Senior Vice President of Public Relations",
             favorite_policy: "Deregulation",
-            alignment: "libertarian"
+            alignment: "chaos"
           },
           {
             id: 5,
@@ -49,7 +49,7 @@ app.service('corporations', function($http) {
             favorite_policy: "Vigilante Legalization",
             anti_quote: "They believe they can go against the law if it means ridding the area of a drug dealer or gangster. How are they any better than the criminals when they resort to criminal tactics?---John Davids, South African Civilian",
             pro_quote: "If you do not mobilise yourselves, no one will do it for you. Drugs and gangsterism is destroying our society and everyone is affected.---Haroun Orrie, PAGAD spokesperson",
-            alignment: "rightist"
+            alignment: "law"
           },
           {
             id: 6,
@@ -59,7 +59,7 @@ app.service('corporations', function($http) {
             anti_quote: "It's a mockery of our laws that a criminal gang is able to freely reinvent themselves as a honorable corporation. And they probably haven't given up on the crime yet.---Argyros Naevius, former journalist",
             favorite_policy: "Slush Fund",
             industries: "Pharmaceuticals, Weapon Production",
-            alignment: "rightist"
+            alignment: "chaos"
           },
           {
             id: 7,
@@ -69,7 +69,7 @@ app.service('corporations', function($http) {
             anti_quote: "Humans *don't* agree on how to run our society! Why should we trust a computer to know any better?---Bassam Petru, lawyer",
             favorite_policy: "Algorithmic Law",
             industries: "Consulting, Life Coaching",
-            alignment: "libertarian"
+            alignment: "law"
           },
           {
             id: 8,
@@ -78,7 +78,7 @@ app.service('corporations', function($http) {
             pro_quote: "Q: Is this another one of those suicide cults? A: Seems as if our entire industralized civilization is one big suicide cult. ... [V]oluntary human extiniction offers a healthy cure to humanity's collective death wish.---VHEMT Q&A",
             anti_quote: "The logic is as absurd as it's unassailable. Yes, indeed, if there are no more children, there will be no more child tragedies. Or child triumphs, for that matter, or much reason to think childless humanity will spend its dying days as serenely as Knight predicts. ---Brian Bethune, journalist",
             industries: "Environmental Services",
-            alignment: "left"
+            alignment: "oblivion"
           },
           {
             id: 9,
@@ -87,7 +87,7 @@ app.service('corporations', function($http) {
             pro_quote: "Only by abandoning 'Conservative Reality' can humanity be awakened to its True Liberal Nature and be able to enjoy happy, productive lives.---Chris Horsa, Liberal Crime Squad Founder",
             anti_quote: "The LCS agents sleep soundly in their virtual pods, and dream of fighting their war against Conservative society. But I notice that they never really dream what happens after they win.---Leobwin Sansone, former LCS employee",
             industries: "Virtual Reality",
-            alignment: "left"
+            alignment: "oblivion"
           },
           {
             id: 10,
@@ -95,7 +95,7 @@ app.service('corporations', function($http) {
             description: "Wackos and conspiracy theorists who believe that they are living in a computer simulation ('MMO') controlled by cruel daemons ('players'). These daemons regularly pay 'subscription fees' for the chance to beat up and cruelly torture 'NPCs' (us). The Demon Hunters seek to purge the daemonic element from human society, but have a hard time distingushing between the NPCs and the daemons.",
             pro_quote: "Friend or foe? Paranoia imperative. Galaxy purely casual, individualism is a statistical anomaly - Nada is an error. Trust Nada? Trust you?---Priest Entity Nada, CTO of Daemon Hunters",
             anti_quote: "If I was a daemon, the first thing I'd do is to create a faction to grief other daemons. Read between the lines.---Argyros Naevius, former journalist",
-            alignment: "right",
+            alignment: "oblivion",
             industries: "Space Exploration, Food Production"
           },
           {
@@ -104,12 +104,44 @@ app.service('corporations', function($http) {
             description: "Established in the early 21st century as a loose-knit collection of Chinese vigilantes seeking to punish corruption and immorality through public shaming and doxxing, it has since absorbed other crowd-sourced intelligence gathering entities to become a major international force. The HFSE uses harrassment and death threats to push the vague and shifting views of the Internet mob, and tends to target both the strong and the weak fairly equally.",
             pro_quote: "Righteousness is one of the five virtues in the Confucian tradition. With the convenience of the internet, and in the case of non-responsive law, the righteous people took matters into their own hands.---Xujun Eberlein, Chinese-American writer",
             anti_quote: "The human-flesh search has unimaginable power. First it was a lot of phone calls every day. Then people painted red characters on his parents’ front door, which said things like, ‘You caused your wife’s suicide, so you should pay.’---Zhang Yanfeng, lawyer representing Wang Fei, a husband accused of cheating on his wife. Wang Fei went into hiding to evade the HFSE",
-            alignment: "right",
+            alignment: "law",
             industries: "Social Media, Internet Activism"
+          },
+          {
+            id: 12,
+            title: "Death Leopard",
+            description: "An organization of thrill-seekers and nihlists who believe in spreading disorder and mayhem through covert manipulation and overt violence. To them, destruction is a beautiful form of conceptual art, and that the world is just a canvas to paint their wildest dreams. They fund their activities by 'shorting' companies that they then gleefully sabotage.",
+            pro_quote: "The greatest crime of human civilization is that it lies about its barbarity. It should instead embrace and rejoice in it.---Death Leopard Manifesto",
+            anti_quote: "Their activities are closely but clandestinely monitored by investment analysts and securities brokers, who plant operatives in the group for the investment tips. It is unknown whether the group has any *other* members.---Ray Dillinger, investment analyst",
+            alignment: "oblivion",
+            industries: "Mind Control, Education, Stock Manipulation"
           }
         ]
   }
-  })
+})
+
+//Alignment:
+//Law - dystopian order, Orwellian dictatorship [Normally associated with the left-wing]
+//Chaos - dystopian disorder, your normal cyberpunk setting [Normally associated with the right-wing]
+//Oblivion - they want to transform humanity...but their transformation is probably rather destructive.
+
+//Chaotic (4) - Mindclean, Cenaturs Incorporated, Baudrillard Associates, Room 39
+//Lawful (4) - Vanguard, PAGAD, Singularity LLC, Human Flesh Search Engine
+//Obilivion (4) - VHEMT, Daemon Hunters, Liberal Crime Squad, Death Leopard
+
+/*
+Combinations are a way to calculate the total outcomes of an event where order of the outcomes does not matter. To calculate combinations, we will use the formula nCr = n! / r! * (n - r)!, where n represents the total number of items, and r represents the number of items being chosen at a time.
+*/
+
+//http://mathforum.org/library/drmath/view/69151.html
+//http://study.com/academy/lesson/how-to-calculate-the-probability-of-combinations.html
+
+//Total Combinations - 364
+//Odds of Total Domination - ~5% per alignment (~15%)
+//Odds of No Dominations - ~17.58%
+//Odds of Slight Domination - ~23% per alignment (~69%)
+
+
 // Other Corps To Add?
 
 // Uber/On-Demand Startups?
