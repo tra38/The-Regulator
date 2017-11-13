@@ -121,9 +121,9 @@ app.service('corporations', function($http) {
 })
 
 //Alignment:
-//Law - dystopian order, Orwellian dictatorship [Normally associated with the left-wing]
-//Chaos - dystopian disorder, your normal cyberpunk setting [Normally associated with the right-wing]
-//Oblivion - they want to transform humanity...but their transformation is probably rather destructive.
+//Law - dystopian order, Orwellian dictatorship [Normally associated with the left-wing] (Higher social stability)
+//Chaos - dystopian disorder, your normal cyberpunk setting [Normally associated with the right-wing] (Higher economic growth)
+//Oblivion - they want to transform humanity...but their transformation is probably rather destructive. (Better random events)
 
 //Chaotic (4) - Mindclean, Cenaturs Incorporated, Baudrillard Associates, Room 39
 //Lawful (4) - Vanguard, PAGAD, Singularity LLC, Human Flesh Search Engine
@@ -193,3 +193,26 @@ Combinations are a way to calculate the total outcomes of an event where order o
 
 // Sequel to Liberal Crime Squad, Bad Ending -
 // The Reagan monarchy began to implode, and with it chaos begin to arise.
+
+/*
+The Different Models of Politics
+
+1) Corporations don't pull the strings, they just bribe whoever is in power. The person in power has unlimited autonomy for his pet project...and if he/she gets overthrown, then a new person takes over and runs his pet project.
+
+Pros - Very much in keeping with traditional cyberpunk
+Cons - Surely the corporations must pull *some* strings in politics!
+
+2) Two Alignments, Left and Right
+
+Pros - Easy to understand...in theory. Left support higher social stabilitiy at the cost of lower economic growth, while Right support higher economic growth at the cost of lower social stability.
+Cons - Hard to understand, in practice. Very hard to square with the current factions (which generally lean leftist).
+
+3) Two Alignments, Law and Chaos
+Pros - Easy to understand, in theory and practice
+Cons - Hard to square with some of the stranger factions, like VHEMT.
+
+4) Three Alignments: Law, Chaos, and Oblivion
+The Final Stage. Names might need to change though. Also need to stress that the corporations of the same alignment don't cooperate.
+Pros - Good variety of different beliefs.
+Cons - Super-complex.
+*/
