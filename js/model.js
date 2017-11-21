@@ -65,7 +65,7 @@ app.service('corporations', function($http) {
             id: 7,
             title: "Singularity LLC",
             description: "Radical political activists who (after being repeatedly disappointed at the failure of human politicans and regulators to solve problems) are attempting to build an Artifical General Intelligence that will control human society. They sometimes rent their experiments as 'consultants' to the other corporations to help raise revenue.",
-            pro_quote: "While replacing humans with computers doesn’t always create a great experience, good computer based systems for things like scheduling and referrals can already be much better than the average human at a bureaucratic institution. ... There will be bugs. And there will be bad systems. But there are already bugs in human systems. And there are already bad human systems.---wvxvw, Singularity LLC employee",
+            pro_quote: "AI doesn't have to be good to replace humans, it just has to be slightly less terrible than humans.---Dan Luu, Singularity LLC employee",
             anti_quote: "Humans *don't* agree on how to run our society! Why should we assume that humans can suddenly agree to build a computer system to run our society?---Bassam Petru, lawyer",
             favorite_policy: "Algorithmic Law",
             industries: "Consulting, Life Coaching",
