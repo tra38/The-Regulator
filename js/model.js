@@ -14,8 +14,8 @@ app.service('corporations', function($http) {
           {
             id: 2,
             title: 'Vanguard',
-            description: "A left-wing organization dedicated to leading a People's Revolution to overthrow capitalism. To raise funds for its lofty goal, Vanguard sells its 'espionage' and 'security' services to the other corporations. Vanguard has been linked to many high-profile assassinations of corporate executives...all of them paid for by other corporate executives.",
-            pro_quote: "Remember that we do not want our sons and daughters to live in this cursed hell. We will fight for their sake.---Dori Iodocus, CEO",
+            description: "A left-wing organization dedicated to overthrowing capitalism and establishing a utopia based on Oligarchical Collectivism. To raise funds for its lofty goal, Vanguard sells its 'espionage' and 'security' services to the other corporations. Vanguard has been linked to many high-profile assassinations of corporate executives...all of them paid for by other corporate executives.",
+            pro_quote: "Success doesn't come for free. You have to do whatever it takes to seize your moment.---Ernesto De La Cruz, Founder",
             anti_quote: "It is cliche to point out that the Vanguard leadership lives in skyscrapers and mansions while their employees are dirt-poor, expendable cannon fooder. But at least the Vanguard leadership recognizes the irony and pretends to cry about it.---Argyros Naevius, former journalist",
             favorite_policy: "E-Democracy",
             industries: "Corporate Espionage, Military",
